@@ -12,13 +12,13 @@ const modeToggle = document.getElementById('modeToggle');
 
 const getSearchResults = () => {
     // Fetch the initial search results
-    return fetch(`http://www.omdbapi.com/?apikey=383f4ea0&s=${searchInput.value}`)
+    return fetch(`https://www.omdbapi.com/?apikey=383f4ea0&s=${searchInput.value}`)
         .then(res => res.json())
         .then(data => {
             if (data.Search) {
                 // Map each movie to a fetch Promise for its details
                 const detailPromises = data.Search.map(movie => {
-                    return fetch(`http://www.omdbapi.com/?apikey=383f4ea0&t=${movie.Title}`)
+                    return fetch(`https://www.omdbapi.com/?apikey=383f4ea0&t=${movie.Title}`)
                         .then(res => res.json());
                 });
                 // Use Promise.all to wait for all detail fetches to complete

@@ -65,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Try Live Demo
 
-Experience MovieMinder in action by visiting the following link: [Try Live Demo](https://moviee-makerr.netlify.app)
+Experience MovieMinder in action by visiting the following link: [Try Live Demo](https://moviee-minderr.netlify.app)

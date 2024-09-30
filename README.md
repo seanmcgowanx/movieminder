@@ -62,3 +62,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OMDB API](http://www.omdbapi.com/) for providing movie data.
 - Inspiration from various movie tracking applications.
+
+## Try Live Demo
+
+Experience MovieMinder in action by visiting the following link: [Try Live Demo](https://moviee-makerr.netlify.app)

@@ -296,9 +296,10 @@ main .search-style .section .details .plot {
     }
 
     .poster {
-        width: 350px; 
+        width: 300px; 
         box-sizing: border-box; 
         margin: auto;
+        padding-bottom: 2rem;
     }
 
     #content {
@@ -307,6 +308,11 @@ main .search-style .section .details .plot {
 
     header{
         margin: auto;
+    }
+
+    .navigate {
+        position: relative;
+        left: 75px;
     }
 
 }

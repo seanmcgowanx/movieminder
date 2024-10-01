@@ -147,6 +147,7 @@ header .search-btn {
     border-left: none;
     border-radius: 0px 5px 5px 0px;
     font-size: 1.1rem;
+    transform: translateY(0.1px);
 }
 
 header .search-btn.light-mode {

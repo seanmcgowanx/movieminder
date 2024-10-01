@@ -139,7 +139,7 @@ header .search-bar.light-mode {
 
 header .search-btn {
     width: 100px;
-    height: 50px;
+    height: 49px;
     margin-left: -5px;
     color: white;
     border: 1px solid #A5a5a5;
@@ -147,7 +147,7 @@ header .search-btn {
     border-left: none;
     border-radius: 0px 5px 5px 0px;
     font-size: 1.1rem;
-    transform: translateY(-0.5px);
+    transform: translateY(-1px);
 }
 
 header .search-btn.light-mode {
